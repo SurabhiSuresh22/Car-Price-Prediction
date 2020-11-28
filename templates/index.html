@@ -9,7 +9,7 @@
 <body bgcolor="skyblue">
 
 <p align="center" class="heading"><b>Predictive analysis</b></p>
-
+<div align="center">
     <form action="{{ url_for('predict')}}" method="POST">
         <div class="b"><b>Year</b><br>
             <input class="a" type="Number" name ="Year" required="required"></div>
@@ -45,7 +45,7 @@
         </select></div>
 
         <div class="c" align="center"><button type="submit" class="d">Calculate selling price</button></div>
-    </form>
+    </form></div>
 <p align="center" class="heading">{{ prediction_text }}</p>
 <p>@2020SurabhiSuresh</p>
 </body>
