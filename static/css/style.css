@@ -4,7 +4,7 @@
 	margin-top: 8px;
 	margin-bottom: 10px;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
-    border: 1px
+        border: 1px
 }
 
 .a{
@@ -18,7 +18,7 @@
 
 .heading{
 	color: black;
-	font-size: 25px;
+	font-size: 30px;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
     border: 1px
 }
@@ -34,13 +34,4 @@
 	width: 23%;
 	background: rgba(0,0,0,0.4);
 
-}
-.e{
-	background-color:  skyblue;
-	width: 50%
-}
-
-.f{
-	padding-left: 50px;
-	background-color: black;
 }
